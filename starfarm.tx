@@ -1,0 +1,37 @@
+ProgramModel:
+'Start Farm'
+'Farm Name:' name=ID
+farms += Farm
+'End Farm'
+;
+
+Farm:
+'Season' selection=ID '{'
+commands*= Command
+'}'
+;
+
+Command:
+ SeedCommand | GroundCommand | FarmCommand
+;
+
+SeedCommand:
+cropseeds=INT crop=ID 'seeds'
+;
+
+GroundCommand:
+rows=INT 'by ' cols=INT 'plot tilled'
+;
+
+FarmCommand:
+action=Action (seeds=INT)? (sepcrop=ID)? 
+;
+
+
+Action:
+"Plant"| "Scythe"| "Water" | "Collect"
+;
+
+Comment:
+ /\/\/.*$/
+;
