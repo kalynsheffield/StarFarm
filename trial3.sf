@@ -1,0 +1,36 @@
+Start Farm
+Farm Name: Miffy
+Season Spring {
+17 Potato seeds
+3 Carrot seeds
+5 by 5 plot tilled
+Plant 3 Carrot
+Water Planted
+}
+
+Season Summer{
+10 Melon seeds
+15 Radish seeds
+2 Starfruit seeds
+10 by 2 plot tilled
+Plant 2 Starfruit
+Plant 7 Radish
+Plant 5  Melon
+Water Planted
+}
+
+Season Fall{
+10 Beet seeds
+5 Broccoli seeds
+20 Pumpkin seeds
+15 by 2 plot tilled
+Plant 5 Broccoli 
+Water Planted
+}
+
+Season Winter{
+5 Powdermelon seeds
+5 by 1 plot tilled 
+Collect Crops
+}
+End Farm
